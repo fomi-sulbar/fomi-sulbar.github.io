@@ -77,29 +77,29 @@
               <form name="maperba-form">
                 <div class="mb-3">
                   <label for="nama" class="form-label">Nama Lengkap</label>
-                  <input name="namaLengkap" type="text" class="form-control" id="name" aria-describedby="name">
+                  <input name="namaLengkap" type="text" class="form-control" id="name" aria-describedby="name" required>
                 </div>
                 <div class="mb-3">
                   <label for="nohp" class="form-label">NO HP</label>
-                  <input name="nohp" type="number" class="form-control" id="nohp" aria-describedby="nohp">
+                  <input name="nohp" type="number" class="form-control" id="nohp" aria-describedby="nohp" required>
                 </div>
                 <div class="mb-3">
                   <div class="form-grup">
                     <label for="jkel" class="form-label">Jenis Kelamin :</label>
                     <br>
                     <div class="form-check form-check-inline">
-                      <input type="radio" value="laki-laki" name="jenisKelamin" id="" class="form-check-input">
+                      <input type="radio" value="laki-laki" name="jenisKelamin" id="" class="form-check-input" required>
                       <label for="" name="jenisKelamin" class="form-check-label">Laki-laki</label>
                     </div>
                     <div class="form-check form-check-inline">
-                      <input type="radio" value="perempuan" name="jenisKelamin" id="" class="form-check-input">
+                      <input type="radio" value="perempuan" name="jenisKelamin" id="" class="form-check-input" required>
                       <label for="" class="form-check-label">Perempuan</label>
                     </div>
                   </div>
                 </div>
                 <div class="mb-3">
                   <label for="kab" class="form-label">Asal Kabupaten</label>
-                  <select name="asalKab" class="form-select" id="kab" aria-describedby="kab">
+                  <select name="asalKab" class="form-select" id="kab" aria-describedby="kab" required>
                     <option disabled selected>Pilih kab.</option>
                     <option value="mamasa">Mamasa</option>
                     <option value="polewali-mandar">polewali-mandar</option>
@@ -111,7 +111,7 @@
                 </div>
                 <div class="mb-3">
                   <label for="exampleFormControlTextarea1" class="form-label">Alamat saat ini</label>
-                  <textarea class="form-control" name="alamat" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  <textarea class="form-control" name="alamat" id="exampleFormControlTextarea1" rows="3" required></textarea>
                 </div>
                 <button name="submit" class="btn btn-kirim btn-primary">Kirim</button>
                 <button class="btn btn-primary btn-loading d-none" type="button" disabled>
